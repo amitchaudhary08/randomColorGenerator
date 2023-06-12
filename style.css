@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    /* background-color: aqua; */
+    transition: 0.5s;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+width:30rem ;
+/* height: 10rem; */
+padding: 10px;
+border-radius: 10px;
+background-color: aliceblue;
+font-size: 40px;
+text-align: center;
+}
+button{
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    /* border: 2px; */
+    color: aliceblue;
+}
